@@ -1,11 +1,16 @@
 function isPalindrome(word) {
   // Write your algorithm here
+    return word === word.split("").reverse().join("");
+  
+   
+  console.log("Is Palindrome? : " + isPalindrome(word));
+  console.log("Is Palindrome?: " + isPalindrome(word));
+  
 }
 
 /* 
   Add your pseudocode here
-*/
-
+ */
 /*
   Add written explanation of your solution here
 */
